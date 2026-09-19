@@ -1,0 +1,1 @@
+export default function Sidebar(){return <aside className="sidebar"><h2>Fashion Ops</h2><small>Operations Hub</small><div className="nav">{['نمای کلی','کارهای من','ارورهای من','بررسی QC','عملکرد تیم','گزارش هفتگی','فاکتور و پنالتی','سرویس‌ها','اعضای تیم','تنظیمات'].map((x,i)=><div className={i===0?'active':''} key={x}>{x}</div>)}</div></aside>}
